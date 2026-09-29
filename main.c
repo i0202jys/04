@@ -3,11 +3,9 @@
 int main(void) { 
     int x;
 
-    printf("input the second: ");
+    printf("input the year: ");
     scanf("%i", &x);
 
-
-    printf("The time is %i:%i \n",x/60,x%60);
-
-
-}
+    printf("IS the year %i a leap year? :%i\n", x, ((x % 4 == 0 && x % 100 != 0) || (x % 400 == 0)));
+  
+    }
