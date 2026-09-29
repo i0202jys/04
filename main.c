@@ -1,20 +1,13 @@
 #include <stdio.h>
  
 int main(void) { 
-    int x, y;
-int res;
+    int x;
 
-    printf("Enter two integers: ");
-    scanf("%i %i", &x, &y);
+    printf("input the second: ");
+    scanf("%i", &x);
 
-res = x + y;
-    printf("%i+%i=%i \n",x,y,res);
-res = x - y;
-    printf("%i-%i=%i \n",x,y,res);
-res = x * y;
-    printf("%i*%i=%i \n",x,y,res);
-res = x / y;
-    printf("%i/%i=%i \n",x,y, x/y);
+
+    printf("The time is %i:%i \n",x/60,x%60);
 
 
 }
